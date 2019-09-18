@@ -1,0 +1,28 @@
+input[type=text], [type=email] {
+    border: none;
+    border-bottom: solid 2px rgba(43, 161, 43, 0.582);
+}
+
+input[type=submit]{
+    background-color: grey;
+    border: none;
+    border-radius: 5px;
+    color:white;
+    width: 100px;
+    height: 40px;
+}
+
+input[type=submit]:hover{
+    background-color: rgb(3, 36, 13);
+    font-weight: bolder;
+}
+
+input[type=text], [type=email]:hover{
+    border-bottom: solid 7px rgba(43, 161, 43, 0.582);
+}
+
+.registration:hover{
+    background-color: rgb(20, 155, 38);
+    border-radius: 5px;
+    width: 25%;
+}
